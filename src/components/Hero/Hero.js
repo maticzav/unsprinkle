@@ -16,9 +16,9 @@ const Hero = () => {
           /images/hero-img@2x.jpg 2x,
           /images/hero-img@3x.jpg 3x,
         `}/>
-        <HeroImage alt="Hero Image" src="/images/hero-img.jpg" />
+        <HeroImage alt="An example of the photos on the site (cat on a black background)." src="/images/hero-img.jpg" />
       </picture>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
